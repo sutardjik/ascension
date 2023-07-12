@@ -114,7 +114,7 @@ function BodyUnraveling(){
     <div class="content">
       <h1>Welcome, dear internet traveler.</h1>
       <h2 id="text">
-        You must be tired from your journey.<br />Let the unraveling begin. 🕯️
+        You must be tired from your journey.<br />Let the unraveling begin.&nbsp;&nbsp;🕯️
       </h2>
       <div class="content-container">
         <div class="diamonds">
