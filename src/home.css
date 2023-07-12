@@ -1,0 +1,138 @@
+@font-face {
+    font-family: ROSLINDALE;
+    src: url(/public/fonts/Roslindale-DisplayCondensedLight-Testing.ttf);
+}
+
+@font-face {
+    font-family: SLOOP;
+    src: url(/public/fonts/Sloop-ScriptTwo.ttf);
+}
+
+@font-face{
+    font-family: STRETCHPRO;
+    src: url(/public/fonts/StretchPro.otf);
+}
+
+*{
+    text-decoration: none;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: var(--clr-bg);
+    text-align: center;
+    cursor: default;
+}
+  
+
+:root{
+    --clr-bg: #07304B;
+    --clr-selection: #DAEEFC;
+    --clr-white: #FFFFFF;
+    --fw: 100;
+    --line-height: 1.5;
+}
+
+::selection{
+    color: var(--clr-bg);
+    background: var(--clr-selection);
+}
+
+h1{
+    font-family: ROSLINDALE;
+    font-weight: var(--fw);
+    font-size: 50px;
+    margin-top: 50px;
+    color: var(--clr-white);
+}
+
+h2 {
+    font-family: ROSLINDALE;
+    font-weight: var(--fw);
+    font-size: 1em;
+    line-height: var(--line-height);
+    color: var(--clr-bg);
+}
+
+h2:hover{
+    font-size: 2em;
+    color: var(--clr-white);
+    transition: 1.2s;
+    cursor: zoom-in;
+}
+
+h3, #text, #emoji{
+    font-family: ROSLINDALE;
+    font-weight: var(--fw);
+    font-size: 1.5em;
+    color: var(--clr-white);
+    line-height: var(--line-height);
+}
+
+h3 a{
+    color: var(--clr-white) !important;
+}
+
+h3 a:hover{
+    cursor: help;
+    font-style: italic;
+}
+
+.script{
+    font-family: SLOOP;
+}
+
+.stretch{
+    font-family: STRETCHPRO;
+}
+
+#text:hover{
+    cursor: default;
+}
+
+#emoji:hover{
+    cursor: crosshair;
+}
+
+.link a{
+    color: #FFFFFF;
+}
+
+.link a:hover{
+    cursor: help;
+    font-style: italic;
+}
+
+.diamonds {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+.content-container{
+    width: 40%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 425px){
+    .content-container{
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px){
+    .content-container{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .content-container{
+        width: 50%;
+    }
+}
