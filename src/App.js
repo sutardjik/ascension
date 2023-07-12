@@ -1,16 +1,15 @@
 import React from 'react';
-// eslint-disable-next-line
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Home';
-import Unraveling from './Unraveling';
+import LotusGarden from './LotusGarden';
 
 function App() {
   return (
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/unraveling" element={<Unraveling />}/>
+          <Route path="/lotusgarden" element={<LotusGarden />}/>
         </Routes>
       </div>
   );

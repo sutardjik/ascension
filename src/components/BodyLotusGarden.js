@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-function BodyUnraveling(){
+function BodyLotusGarden(){
   const gotolotus = (event) => {
     event.target.innerHTML='🪷';
   };
@@ -58,11 +58,11 @@ function BodyUnraveling(){
       event.target.innerHTML='💠';
     };
   };
-  const gotostar=(event)=>{
-    event.target.innerHTML='✨';
+  const gotocandle=(event)=>{
+    event.target.innerHTML='🕯️';
   };
-  const startodiamond=(event)=>{
-    if(event.target.innerHTML!=='✨'){
+  const candletodiamond=(event)=>{
+    if(event.target.innerHTML!=='🕯️'){
       event.target.innerHTML='💠';
     };
   };
@@ -74,7 +74,7 @@ function BodyUnraveling(){
     const mn = document.getElementsByClassName('moon');
     const hg = document.getElementsByClassName('hourglass');
     const g = document.getElementsByClassName('galaxy');
-    const s = document.getElementsByClassName('star');
+    const c = document.getElementsByClassName('candle');
     for (let i = 0; i < l.length; i++) {
       l[i].addEventListener('mouseover', gotolotus);
       l[i].addEventListener('mouseout', lotustodiamond);
@@ -103,9 +103,9 @@ function BodyUnraveling(){
       g[o].addEventListener('mouseover',gotogalaxy);
       g[o].addEventListener('mouseout',galaxytodiamond);
     }
-    for(let p=0;p<s.length;p++){
-      s[p].addEventListener('mouseover',gotostar);
-      s[p].addEventListener('mouseout',startodiamond);
+    for(let p=0;p<c.length;p++){
+      c[p].addEventListener('mouseover',gotocandle);
+      c[p].addEventListener('mouseout',candletodiamond);
     }
   }, []);
 
@@ -114,7 +114,7 @@ function BodyUnraveling(){
     <div class="content">
       <h1>Welcome, dear internet traveler.</h1>
       <h2 id="text">
-        You must be tired from your journey.<br />Let the unraveling begin.&nbsp;&nbsp;🕯️
+        You must be tired from your journey.<br />Let the unraveling begin.&nbsp;&nbsp;🪷
       </h2>
       <div class="content-container">
         <div class="diamonds">
@@ -178,7 +178,7 @@ function BodyUnraveling(){
           <h2 class="lotus" id="emoji">💠</h2>
           <h2 class="lotus" id="emoji">💠</h2>
           <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="star" id="emoji">💠</h2>
+          <h2 class="candle" id="emoji">💠</h2>
         </div>
       </div>
       <br />
@@ -205,4 +205,4 @@ function BodyUnraveling(){
         </div>
     )
 }
-export default BodyUnraveling;
+export default BodyLotusGarden;
