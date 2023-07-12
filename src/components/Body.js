@@ -5,33 +5,33 @@ function Body(){
         <div>
     <div className="content">
       <h1>Ascension</h1>
-      <h2>You loved me 💠</h2>
+      <h2>You loved me&nbsp;💠</h2>
       <br />
-      <h2><em>You loved me</em> 💠</h2>
+      <h2><em>You loved me </em>&nbsp;💠</h2>
       <br />
-      <h2>For a moment 💠</h2>
+      <h2>For a moment&nbsp;💠</h2>
       <br />
       <h2>
-        Just a 💠
+        Just a&nbsp;💠
         <em><br />moment in time</em>
       </h2>
       <br />
       <h2>
         What<br />happens<br />
-        next? 💠
+        next?&nbsp;💠
       </h2>
       <br />
-      <h2><em>Regardless</em> 💠</h2>
+      <h2><em>Regardless</em>&nbsp;💠</h2>
       <br />
-      <h2>You loved me 💠</h2>
+      <h2>You loved me&nbsp;💠</h2>
       <br />
-      <h2>For a moment 💠<br />you <em>did</em></h2>
+      <h2>For a moment&nbsp;💠<br />you <em>did</em></h2>
       <br />
-      <h2>And I die<br />to stay here 💠</h2>
+      <h2>And I die<br />to stay here&nbsp;💠</h2>
       <br />
       <h2>
         I can &nbsp;<span className="stretch">sstill</span><br />taste the memory
-        <br />of &nbsp;you 💠<br />on my tongue
+        <br />of &nbsp;you&nbsp;💠<br />on my tongue
       </h2>
       <br />
       <h2>
@@ -40,12 +40,12 @@ function Body(){
       </h2>
       <br />
       <h2>
-        I could hear 💠<br />your mind &nbsp;<span className="script">running</span>
+        I could hear&nbsp;💠<br />your mind &nbsp;<span className="script">running</span>
       </h2>
       <br />
       <h2>
         With the &nbsp;&nbsp;&nbsp;<span className="script">speed</span><br />of
-        someone <br />being in &nbsp;<span className="script">love</span>&nbsp; 💠
+        someone <br />being in &nbsp;<span className="script">love</span>&nbsp;&nbsp;💠
       </h2>
       <br />
       <h2>
@@ -53,13 +53,13 @@ function Body(){
         here?
       </h2>
       <br />
-      <h2>Barely <em>alive</em> 💠 <br />barely <em>awake</em></h2>
+      <h2>Barely <em>alive</em>&nbsp;💠 <br />barely <em>awake</em></h2>
       <br />
-      <h2>In my bed<br />too &nbsp;<span className="stretch">bbigg</span> 💠</h2>
+      <h2>In my bed<br />too &nbsp;<span className="stretch">bbigg</span>&nbsp;💠</h2>
       <br />
-      <h2>And I stay 💠<br />on my side</h2>
+      <h2>And I stay&nbsp;💠<br />on my side</h2>
       <br />
-      <h2>Wondering if it was<br /><span className="stretch">rreal</span> 💠</h2>
+      <h2>Wondering if it was<br /><span className="stretch">rreal</span>&nbsp;💠</h2>
       <br />
       <h2>Am I the &nbsp;<span className="script">dream</span>&nbsp;💠</h2>
       <br />
