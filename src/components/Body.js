@@ -7,7 +7,7 @@ function Body(){
       <h1>Ascension</h1>
       <h2>You loved me&nbsp;💠</h2>
       <br />
-      <h2><em>You loved me </em>&nbsp;💠</h2>
+      <h2><em>You loved me </em>&nbsp;&nbsp;💠</h2>
       <br />
       <h2>For a moment&nbsp;💠</h2>
       <br />
@@ -36,7 +36,7 @@ function Body(){
       <br />
       <h2>
         When<br />we<br />stood<br />so<br />
-        <span className="stretch">cclose</span>&nbsp;💠
+        <span className="stretch">cclose</span>&nbsp;&nbsp;💠
       </h2>
       <br />
       <h2>
@@ -49,7 +49,7 @@ function Body(){
       </h2>
       <br />
       <h2>
-        So &nbsp;<span className="stretch">whyy</span>&nbsp;💠<br />can’t I stay
+        So &nbsp;<span className="stretch">whyy</span>&nbsp;&nbsp;💠<br />can’t I stay
         here?
       </h2>
       <br />
