@@ -183,17 +183,16 @@ function BodyLotusGarden(){
       </div>
       <br />
       <h2 id="text">
-        Lyrics by &nbsp;
         <span className="link"
-          ><a href="https://www.sarahkinsleymusic.com/"
-            >Sarah Kinsley</a
+          ><a href="https://sarahkinsley.komi.io/"
+            >Lyrics by Sarah Kinsley</a
           ></span
         >
         <br />
-        Built by &nbsp;
+        
         <span className="link">
           <a href="https://sutardjik.github.io/"
-            >&#x4b;&#x61;&#x72;&#x65;&#x6e;
+            >Built by &#x4b;&#x61;&#x72;&#x65;&#x6e;
             &#x53;&#x75;&#x74;&#x61;&#x72;&#x64;&#x6a;&#x69;</a
           ></span
         ><br />

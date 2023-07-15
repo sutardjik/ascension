@@ -101,11 +101,12 @@ h3 a:hover{
 
 .link a{
     color: #FFFFFF;
+    transition: text-shadow 0.3s ease-in-out;
 }
 
 .link a:hover{
     cursor: help;
-    font-style: italic;
+    text-shadow: 0 0 5px var(--clr-bg), 0 0 10px var(--clr-white), 0 0 15px var(--clr-white), 0 0 20px var(--clr-white), 0 0 25px ;
 }
 
 .diamonds {
