@@ -2,6 +2,9 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function BodyLotusGarden(){
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const gotolotus = (event) => {
     event.target.innerHTML='🪷';
   };
@@ -112,11 +115,11 @@ function BodyLotusGarden(){
     return(
         <div>
     <div class="content">
+      <div class="content-container">
       <h1>Welcome, dear internet traveler.</h1>
       <h2 id="text">
         You must be tired from your journey.<br />Let the unraveling begin.&nbsp;&nbsp;🪷
       </h2>
-      <div class="content-container">
         <div class="diamonds">
           <h2 class="lotus" id="emoji">💠</h2>
           <h2 class="lotus" id="emoji">💠</h2>
