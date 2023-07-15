@@ -4,5 +4,7 @@ Ascension is an interactive lyric visualizer website that showcases the impact o
 
 Written in JavaScript, HTML, and CSS using the React.js framework.
 
-In the project directory, type `npm start` to run the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it the browser.
+## Development Mode
+
+- To run the app in the project directory, use the command: `npm start`
+- Open [http://localhost:3000](http://localhost:3000) in browser to view the app

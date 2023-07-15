@@ -189,14 +189,13 @@ function BodyLotusGarden(){
           ></span
         >
         <br />
-        
         <span className="link">
           <a href="https://sutardjik.github.io/"
             >Built by &#x4b;&#x61;&#x72;&#x65;&#x6e;
             &#x53;&#x75;&#x74;&#x61;&#x72;&#x64;&#x6a;&#x69;</a
           ></span
         ><br />
-        <Link to="/">💠</Link>
+        <span className="sign"><Link to="/">💠</Link></span>
       </h2>
       <br />
       <br />
