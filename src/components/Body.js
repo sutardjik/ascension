@@ -1,6 +1,10 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function Body(){
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
     return(
         <div>
     <div className="content">
@@ -27,7 +31,7 @@ function Body(){
       <br />
       <h2>For a moment&nbsp;&nbsp;💠<br />you <em>did</em></h2>
       <br />
-      <h2>And I die<br />to stay here&nbsp;&nbsp;💠</h2>
+      <h2>And I <em>die</em><br />to stay here&nbsp;&nbsp;💠</h2>
       <br />
       <h2>
         I can &nbsp;<span className="stretch">sstill</span><br />taste the memory

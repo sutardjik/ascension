@@ -97,6 +97,14 @@ h3 a:hover{
     cursor: crosshair;
 }
 
+#emoji.windchime, #emoji.crystalball, #emoji.moon, #emoji.magicwand, #emoji.hourglass, #emoji.galaxy, #emoji.candle {
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+#emoji.windchime:hover, #emoji.crystalball:hover, #emoji.moon:hover, #emoji.magicwand:hover, #emoji.hourglass:hover, #emoji.galaxy:hover, #emoji.candle:hover {
+    text-shadow: 0 0 5px var(--clr-bg), 0 0 10px var(--clr-white), 0 0 15px var(--clr-white), 0 0 20px var(--clr-white), 0 0 25px ;
+}
+
 .link a, .sign a{
     color: #FFFFFF;
     transition: text-shadow 0.3s ease-in-out;
