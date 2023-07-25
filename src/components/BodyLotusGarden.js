@@ -114,74 +114,74 @@ function BodyLotusGarden(){
 
     return(
         <div>
-    <div class="content">
-      <div class="content-container">
+    <div className="content">
+      <div className="content-container">
       <h1>Welcome, dear internet traveler.</h1>
       <h2 id="text">
         You must be tired from your journey.<br />Let the unraveling begin.&nbsp;&nbsp;🪷
       </h2>
-        <div class="diamonds">
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="windchime" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
+        <div className="diamonds">
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="windchime" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
         </div>
-        <div class="diamonds">
-          <h2 class="crystalball" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
+        <div className="diamonds">
+          <h2 className="crystalball" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
         </div>
-        <div class="diamonds">
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="moon" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
+        <div className="diamonds">
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="moon" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
         </div>
-        <div class="diamonds">
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="magicwand" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
+        <div className="diamonds">
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="magicwand" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
         </div>
-        <div class="diamonds">
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="hourglass" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
+        <div className="diamonds">
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="hourglass" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
         </div>
-        <div class="diamonds">
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="galaxy" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
+        <div className="diamonds">
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="galaxy" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
         </div>
-        <div class="diamonds">
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="lotus" id="emoji">💠</h2>
-          <h2 class="candle" id="emoji">💠</h2>
+        <div className="diamonds">
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="lotus" id="emoji">💠</h2>
+          <h2 className="candle" id="emoji">💠</h2>
         </div>
       </div>
       <br />
