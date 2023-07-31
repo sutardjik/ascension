@@ -5,4 +5,3 @@ An interactive lyric visualizer website using the React framework that showcases
 ## Development Mode
 
 - To run the app in the project directory, use the command: `npm start`
-- Open [http://localhost:3000](http://localhost:3000) in browser to view the app
