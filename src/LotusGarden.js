@@ -1,7 +1,7 @@
 import React from 'react';
 import HeadLotusGarden from './components/HeadLotusGarden';
 import BodyLotusGarden from './components/BodyLotusGarden';
-import './home.css';
+import './style.css';
 function LotusGarden(){
     return(
         <div>

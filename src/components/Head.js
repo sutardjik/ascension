@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+
 function Head(){
     return(
         <div>
@@ -12,4 +13,5 @@ function Head(){
         </div>
     )
 }
+
 export default Head;

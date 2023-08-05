@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+
 function HeadLotusGarden(){
     return(
         <div>
@@ -12,4 +13,5 @@ function HeadLotusGarden(){
         </div>
     )
 }
+
 export default HeadLotusGarden;
