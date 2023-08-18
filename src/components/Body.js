@@ -8,7 +8,8 @@ function Body(){
     return(
         <div>
     <div className="content">
-      <h1>Ascension</h1>
+      <div className="content-container">
+      <span className="link"><h1><a href="https://sarahkinsley.lnk.to/Ascension">Ascension</a></h1></span>
       <h2>You loved me&nbsp;&nbsp;💠</h2>
       <br />
       <h2><em>You loved me </em>&nbsp;&nbsp;💠</h2>
@@ -17,7 +18,7 @@ function Body(){
       <br />
       <h2>
         Just a&nbsp;&nbsp;💠
-        <em><br />moment in time</em>
+        <span className="emphasize"><br />moment in time</span>
       </h2>
       <br />
       <h2>
@@ -25,7 +26,7 @@ function Body(){
         next?&nbsp;&nbsp;💠
       </h2>
       <br />
-      <h2><em>Regardless</em>&nbsp;&nbsp;💠</h2>
+      <h2><span className="emphasize">Regardless</span>&nbsp;&nbsp;💠</h2>
       <br />
       <h2>You loved me&nbsp;&nbsp;💠</h2>
       <br />
@@ -34,13 +35,13 @@ function Body(){
       <h2>And I <em>die</em><br />to stay here&nbsp;&nbsp;💠</h2>
       <br />
       <h2>
-        I can &nbsp;<span className="stretch">sstill</span><br />taste the memory
+        I can <span className="emphasize">still</span><br />taste the memory
         <br />of&nbsp;&nbsp;you&nbsp;&nbsp;💠<br />on my tongue
       </h2>
       <br />
       <h2>
-        When<br />we<br />stood<br />so<br />
-        <span className="stretch">cclose</span>&nbsp;&nbsp;💠
+        When we stood<br />so &nbsp;
+        <span className="emphasize">close</span>&nbsp;&nbsp;💠
       </h2>
       <br />
       <h2>
@@ -53,27 +54,28 @@ function Body(){
       </h2>
       <br />
       <h2>
-        So &nbsp;<span className="stretch">whyy</span>&nbsp;&nbsp;💠<br />can’t I stay
+        So &nbsp;<span className="emphasize">why</span>&nbsp;&nbsp;💠<br />can’t I stay
         here?
       </h2>
       <br />
       <h2>Barely <em>alive</em>&nbsp;&nbsp;💠 <br />barely <em>awake</em></h2>
       <br />
-      <h2>In my bed<br />too &nbsp;<span className="stretch">bbigg</span>&nbsp;&nbsp;💠</h2>
+      <h2>In my bed<br />too &nbsp;<span className="emphasize">big</span>&nbsp;&nbsp;💠</h2>
       <br />
       <h2>And I stay&nbsp;&nbsp;💠<br />on my side</h2>
       <br />
-      <h2>Wondering if it was<br /><span className="stretch">rreal</span>&nbsp;&nbsp;💠</h2>
+      <h2>Wondering if it was<br /><span className="emphasize">real</span>&nbsp;&nbsp;💠</h2>
       <br />
       <h2>Am I the &nbsp;<span className="script">dream</span>&nbsp;&nbsp;💠</h2>
       <br />
       <h2>
-        Or is this <br /><em>how it is?</em>&nbsp;&nbsp;<span className="sign"><Link to="/lotusgarden">🪷</Link></span>
+        Or is this <br /><span className="emphasize">how it is?</span>&nbsp;&nbsp;<span className="sign"><Link to="/lotusgarden">🪷</Link></span>
       </h2>
       <br />
       <br />
       <br />
     </div>
+        </div>
         </div>
     );
 }

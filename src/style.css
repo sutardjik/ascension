@@ -1,6 +1,6 @@
 @font-face {
-    font-family: ROSLINDALE;
-    src: url(/public/fonts/Roslindale-DisplayCondensedLight-Testing.ttf);
+    font-family: ENL;
+    src: url(/public/fonts/Editor\'sNote-Extralight.ttf);
 }
 
 @font-face {
@@ -8,9 +8,9 @@
     src: url(/public/fonts/Sloop-ScriptTwo.ttf);
 }
 
-@font-face{
-    font-family: STRETCHPRO;
-    src: url(/public/fonts/StretchPro.otf);
+@font-face {
+    font-family: AIR;
+    src: url(/public/fonts/PPAir-Medium.otf);
 }
 
 *{
@@ -29,8 +29,8 @@ body{
 }
 
 :root{
-    --clr-bg: #07304B;
-    --clr-selection: #DAEEFC;
+    --clr-bg: #0B466F;
+    --clr-selection: #C7E5F9;
     --clr-white: #FFFFFF;
     --fw: 100;
     --line-height: 1.5;
@@ -42,7 +42,7 @@ body{
 }
 
 h1{
-    font-family: ROSLINDALE;
+    font-family: ENL;
     font-weight: var(--fw);
     font-size: 50px;
     margin-top: 50px;
@@ -50,7 +50,7 @@ h1{
 }
 
 h2 {
-    font-family: ROSLINDALE;
+    font-family: ENL;
     font-weight: var(--fw);
     font-size: 1em;
     line-height: var(--line-height);
@@ -65,7 +65,7 @@ h2:hover{
 }
 
 h3, #text, #emoji{
-    font-family: ROSLINDALE;
+    font-family: ENL;
     font-weight: var(--fw);
     font-size: 1.5em;
     color: var(--clr-white);
@@ -85,8 +85,8 @@ h3 a:hover{
     font-family: SLOOP;
 }
 
-.stretch{
-    font-family: STRETCHPRO;
+.emphasize{
+    font-family: AIR;
 }
 
 #text:hover{
