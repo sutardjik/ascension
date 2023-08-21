@@ -18,6 +18,6 @@ cd ascension
 # install dependencies
 npm install
 
-# run project
-npm start
+# build project
+npm run build
 ```

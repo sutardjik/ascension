@@ -2,6 +2,7 @@ import React from 'react';
 import HeadLotusGarden from './components/HeadLotusGarden';
 import BodyLotusGarden from './components/BodyLotusGarden';
 import './style.css';
+
 function LotusGarden(){
     return(
         <div>
@@ -10,4 +11,5 @@ function LotusGarden(){
         </div>
     );
 }
+
 export default LotusGarden;

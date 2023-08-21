@@ -64,7 +64,7 @@ h2:hover{
     cursor: zoom-in;
 }
 
-h3, #text, #emoji{
+h3, #desc, #emoji{
     font-family: ENL;
     font-weight: var(--fw);
     font-size: 1.5em;
@@ -78,7 +78,6 @@ h3 a{
 
 h3 a:hover{
     cursor: help;
-    font-style: italic;
 }
 
 .script{
@@ -89,7 +88,7 @@ h3 a:hover{
     font-family: AIR;
 }
 
-#text:hover{
+#desc:hover{
     cursor: default;
 }
 
