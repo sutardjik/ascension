@@ -10,13 +10,16 @@ An interactive lyric visualizer website using the React framework that showcases
 
 ## Development
 
-```
+```bash
 # clone project
 git clone https://github.com/sutardjik/ascension.git
 cd ascension
 
 # install dependencies
 npm install
+
+# start development server
+npm start
 
 # build project
 npm run build
