@@ -143,8 +143,17 @@ function BodyLotusGarden(){
         <div className="content-container">
           <h1>Welcome, dear internet traveler.</h1>
           <h2 id="desc">
-            You must be tired from your journey.<br />Let the unraveling begin.&nbsp;&nbsp;🪷
+            You must be tired from your journey.<br />Let the unraveling begin.
           </h2>
+          <div className="diamonds">
+            <h2 className="lotus" id="emoji">💠</h2>
+            <h2 className="lotus" id="emoji">💠</h2>
+            <h2 className="lotus" id="emoji">💠</h2>
+            <h2 className="lotus" id="emoji">💠</h2>
+            <h2 className="lotus" id="emoji">💠</h2>
+            <h2 className="lotus" id="emoji">💠</h2>
+            <h2 className="lotus" id="emoji">💠</h2>
+          </div>
           <div className="diamonds">
             <h2 className="lotus" id="emoji">💠</h2>
             <h2 className="lotus" id="emoji">💠</h2>
@@ -207,6 +216,15 @@ function BodyLotusGarden(){
             <h2 className="lotus" id="emoji">💠</h2>
             <h2 className="lotus" id="emoji">💠</h2>
             <h2 className="candle" id="emoji">💠</h2>
+          </div>
+          <div className="diamonds">
+            <h2 className="lotus" id="emoji">💠</h2>
+            <h2 className="lotus" id="emoji">💠</h2>
+            <h2 className="lotus" id="emoji">💠</h2>
+            <h2 className="lotus" id="emoji">💠</h2>
+            <h2 className="lotus" id="emoji">💠</h2>
+            <h2 className="lotus" id="emoji">💠</h2>
+            <h2 className="lotus" id="emoji">💠</h2>
           </div>
           <br />
           <h2 id="desc">
