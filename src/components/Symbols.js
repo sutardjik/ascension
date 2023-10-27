@@ -1,12 +1,12 @@
 import { useEffect } from 'react';
 
 function Symbols(){
-  const gotolotus = (event) => {
-      event.target.innerHTML='🪷';
+  const gotosakura = (event) => {
+      event.target.innerHTML='🌸';
   };
     
-  const lotustodiamond = (event) => {
-    if (event.target.innerHTML !== '🪷') {
+  const sakuratodiamond = (event) => {
+    if (event.target.innerHTML !== '🌸') {
       event.target.innerHTML = '💠';
     }
   };
@@ -41,12 +41,12 @@ function Symbols(){
     };
   };
     
-  const gotoheart=(event)=>{
-    event.target.innerHTML='🫀';
+  const gotobutterfly=(event)=>{
+    event.target.innerHTML='🦋';
   };
     
-  const hearttodiamond=(event)=>{
-    if(event.target.innerHTML!=='🫀'){
+  const butterflytodiamond=(event)=>{
+    if(event.target.innerHTML!=='🦋'){
       event.target.innerHTML='💠';
     };
   };
@@ -61,12 +61,12 @@ function Symbols(){
     };
   };
     
-  const gotostar=(event)=>{
-    event.target.innerHTML='🌠';
+  const gotomirror=(event)=>{
+    event.target.innerHTML='🪞';
   };
     
-  const startodiamond=(event)=>{
-    if(event.target.innerHTML!=='🌠'){
+  const mirrortodiamond=(event)=>{
+    if(event.target.innerHTML!=='🪞'){
       event.target.innerHTML='💠';
     };
   };
@@ -82,18 +82,18 @@ function Symbols(){
   };
     
   useEffect(()=>{
-    const l = document.getElementsByClassName('lotus');
+    const l = document.getElementsByClassName('sakura');
+    const m = document.getElementsByClassName('mirror');
     const wc = document.getElementsByClassName('windchime');
     const ts = document.getElementsByClassName('telescope');
     const mw = document.getElementsByClassName('magicwand');
-    const h = document.getElementsByClassName('heart');
+    const b = document.getElementsByClassName('butterfly');
     const hg = document.getElementsByClassName('hourglass');
-    const s = document.getElementsByClassName('star');
     const c = document.getElementsByClassName('candle');
     
     for(let i=0; i<l.length; i++) {
-      l[i].addEventListener('mouseover', gotolotus);
-      l[i].addEventListener('mouseout', lotustodiamond);
+      l[i].addEventListener('mouseover', gotosakura);
+      l[i].addEventListener('mouseout', sakuratodiamond);
     }
       
     for(let j=0; j<wc.length; j++){
@@ -111,9 +111,9 @@ function Symbols(){
       mw[l].addEventListener('mouseout',mwtodiamond);
     }
       
-    for(let m=0; m<h.length; m++){
-      h[m].addEventListener('mouseover',gotoheart);
-      h[m].addEventListener('mouseout',hearttodiamond);
+    for(let m=0; m<b.length; m++){
+      b[m].addEventListener('mouseover',gotobutterfly);
+      b[m].addEventListener('mouseout',butterflytodiamond);
     }
       
     for(let n=0; n<hg.length; n++){
@@ -121,9 +121,9 @@ function Symbols(){
       hg[n].addEventListener('mouseout',hgtodiamond);
     }
       
-    for(let o=0; o<s.length; o++){
-      s[o].addEventListener('mouseover',gotostar);
-      s[o].addEventListener('mouseout',startodiamond);
+    for(let o=0; o<m.length; o++){
+      m[o].addEventListener('mouseover',gotomirror);
+      m[o].addEventListener('mouseout',mirrortodiamond);
     }
       
     for(let p=0; p<c.length; p++){

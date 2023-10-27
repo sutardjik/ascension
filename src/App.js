@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home';
-import LotusGarden from './LotusGarden';
+import SakuraGarden from './SakuraGarden';
 
 function App() {
   return (
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/lotusgarden" element={<LotusGarden />}/>
+          <Route path="/garden" element={<SakuraGarden />}/>
         </Routes>
       </div>
   );
