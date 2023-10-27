@@ -5,7 +5,7 @@ An interactive lyric visualizer website using the React framework that showcases
 ## Typefaces
 
 - [Editor's Note](https://jenwagner.co/products/editors-note-family-a-16-font-editorial-serif-family/)
-- [PP Air](https://pangrampangram.com/products/air)
+- [PP Air Sans](https://pangrampangram.com/products/air-sans)
 - [Sloop Script](https://fonts.adobe.com/fonts/sloop-script)
 
 ## Development
