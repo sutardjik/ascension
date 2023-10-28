@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Symbols from "./Symbols";
 
-function BodySakura(){
+function BodyGarden(){
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -121,4 +121,4 @@ function BodySakura(){
   );
 }
 
-export default BodySakura;
+export default BodyGarden;
