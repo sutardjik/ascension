@@ -11,124 +11,124 @@ function Symbols(){
     }
   };
     
-  const gotowindchime=(event)=>{
+  const gotowindchime = (event) => {
     event.target.innerHTML='🎐';
   };
     
-  const wctodiamond=(event)=>{
+  const windchimetodiamond = (event) => {
     if(event.target.innerHTML!=='🎐'){
       event.target.innerHTML='💠';
     };
   };
     
-  const gototelescope=(event)=>{
+  const gototelescope = (event) => {
     event.target.innerHTML='🔭';
   };
     
-  const tstodiamond=(event)=>{
+  const telescopetodiamond = (event) => {
     if(event.target.innerHTML!=='🔭'){
       event.target.innerHTML='💠';
     };
   };
     
-  const gotomagicwand=(event)=>{
+  const gotomagicwand = (event) => {
     event.target.innerHTML='🪄';
   };
     
-  const mwtodiamond=(event)=>{
+  const magicwandtodiamond = (event) => {
     if(event.target.innerHTML!=='🪄'){
       event.target.innerHTML='💠';
     };
   };
     
-  const gotobutterfly=(event)=>{
+  const gotobutterfly = (event) => {
     event.target.innerHTML='🦋';
   };
     
-  const butterflytodiamond=(event)=>{
+  const butterflytodiamond = (event) => {
     if(event.target.innerHTML!=='🦋'){
       event.target.innerHTML='💠';
     };
   };
     
-  const gotohg=(event)=>{
+  const gotohourglass = (event) => {
     event.target.innerHTML='⌛';
   };
     
-  const hgtodiamond=(event)=>{
+  const hourglasstodiamond = (event) => {
     if(event.target.innerHTML!=='⌛'){
       event.target.innerHTML='💠';
     };
   };
     
-  const gotomirror=(event)=>{
+  const gotomirror = (event) => {
     event.target.innerHTML='🪞';
   };
     
-  const mirrortodiamond=(event)=>{
+  const mirrortodiamond = (event) => {
     if(event.target.innerHTML!=='🪞'){
       event.target.innerHTML='💠';
     };
   };
     
-  const gotocandle=(event)=>{
+  const gotocandle = (event) => {
     event.target.innerHTML='🕯️';
   };
     
-  const candletodiamond=(event)=>{
+  const candletodiamond = (event) => {
     if(event.target.innerHTML!=='🕯️'){
       event.target.innerHTML='💠';
     };
   };
     
   useEffect(()=>{
-    const l = document.getElementsByClassName('sakura');
-    const m = document.getElementsByClassName('mirror');
-    const wc = document.getElementsByClassName('windchime');
-    const ts = document.getElementsByClassName('telescope');
-    const mw = document.getElementsByClassName('magicwand');
-    const b = document.getElementsByClassName('butterfly');
-    const hg = document.getElementsByClassName('hourglass');
-    const c = document.getElementsByClassName('candle');
+    const sakura = document.getElementsByClassName('sakura');
+    const mirror = document.getElementsByClassName('mirror');
+    const windchime = document.getElementsByClassName('windchime');
+    const telescope = document.getElementsByClassName('telescope');
+    const magicwand = document.getElementsByClassName('magicwand');
+    const butterfly = document.getElementsByClassName('butterfly');
+    const hourglass = document.getElementsByClassName('hourglass');
+    const candle = document.getElementsByClassName('candle');
     
-    for(let i=0; i<l.length; i++) {
-      l[i].addEventListener('mouseover', gotosakura);
-      l[i].addEventListener('mouseout', sakuratodiamond);
+    for(let i=0; i<sakura.length; i++) {
+      sakura[i].addEventListener('mouseover', gotosakura);
+      sakura[i].addEventListener('mouseout', sakuratodiamond);
     }
       
-    for(let j=0; j<wc.length; j++){
-      wc[j].addEventListener('mouseover',gotowindchime);
-      wc[j].addEventListener('mouseout',wctodiamond);
+    for(let j=0; j<windchime.length; j++){
+      windchime[j].addEventListener('mouseover',gotowindchime);
+      windchime[j].addEventListener('mouseout',windchimetodiamond);
     }
       
-    for(let k=0; k<ts.length; k++){
-      ts[k].addEventListener('mouseover',gototelescope);
-      ts[k].addEventListener('mouseout',tstodiamond);
+    for(let k=0; k<telescope.length; k++){
+      telescope[k].addEventListener('mouseover',gototelescope);
+      telescope[k].addEventListener('mouseout',telescopetodiamond);
     }
       
-    for(let l=0; l<mw.length; l++){
-      mw[l].addEventListener('mouseover',gotomagicwand);
-      mw[l].addEventListener('mouseout',mwtodiamond);
+    for(let l=0; l<magicwand.length; l++){
+      magicwand[l].addEventListener('mouseover',gotomagicwand);
+      magicwand[l].addEventListener('mouseout',magicwandtodiamond);
     }
       
-    for(let m=0; m<b.length; m++){
-      b[m].addEventListener('mouseover',gotobutterfly);
-      b[m].addEventListener('mouseout',butterflytodiamond);
+    for(let m=0; m<butterfly.length; m++){
+      butterfly[m].addEventListener('mouseover',gotobutterfly);
+      butterfly[m].addEventListener('mouseout',butterflytodiamond);
     }
       
-    for(let n=0; n<hg.length; n++){
-      hg[n].addEventListener('mouseover',gotohg);
-      hg[n].addEventListener('mouseout',hgtodiamond);
+    for(let n=0; n<hourglass.length; n++){
+      hourglass[n].addEventListener('mouseover',gotohourglass);
+      hourglass[n].addEventListener('mouseout',hourglasstodiamond);
     }
       
-    for(let o=0; o<m.length; o++){
-      m[o].addEventListener('mouseover',gotomirror);
-      m[o].addEventListener('mouseout',mirrortodiamond);
+    for(let o=0; o<mirror.length; o++){
+      mirror[o].addEventListener('mouseover',gotomirror);
+      mirror[o].addEventListener('mouseout',mirrortodiamond);
     }
       
-    for(let p=0; p<c.length; p++){
-      c[p].addEventListener('mouseover',gotocandle);
-      c[p].addEventListener('mouseout',candletodiamond);
+    for(let p=0; p<candle.length; p++){
+      candle[p].addEventListener('mouseover',gotocandle);
+      candle[p].addEventListener('mouseout',candletodiamond);
     }
   }, []);
 }
