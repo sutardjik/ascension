@@ -111,7 +111,7 @@ function BodyGarden(){
                 &#x53;&#x75;&#x74;&#x61;&#x72;&#x64;&#x6a;&#x69;</a
               ></span
             ><br />
-            <span className="sign"><Link to="/">💠</Link></span>
+            <span className="symbol"><Link to="/">💠</Link></span>
           </h2>
           <br />
           <br />

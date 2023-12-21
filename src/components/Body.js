@@ -70,7 +70,7 @@ function Body(){
           <h2>Am I the &nbsp;<span className="script">dream</span>&nbsp;&nbsp;💠</h2>
           <br />
           <h2>
-            Or is this <br /><span className="emphasize">how it is?</span>&nbsp;&nbsp;<span className="sign"><Link to="/garden">🌸</Link></span>
+            Or is this <br /><span className="emphasize">how it is?</span>&nbsp;&nbsp;<span className="symbol"><Link to="/garden">🌸</Link></span>
           </h2>
           <br />
           <br />

@@ -29,7 +29,7 @@ body{
 }
 
 :root{
-    --clr-bg: #0B466F;
+    --clr-bg: #0D5182;
     --clr-selection: #C7E5F9;
     --clr-white: #FFFFFF;
     --fw: 100;
@@ -52,13 +52,13 @@ h1{
 h2 {
     font-family: ENL;
     font-weight: var(--fw);
-    font-size: 1em;
+    font-size: 15px;
     line-height: var(--line-height);
     color: var(--clr-bg);
 }
 
 h2:hover{
-    font-size: 2em;
+    font-size: 30px;
     color: var(--clr-white);
     transition: 1.2s;
     cursor: zoom-in;
@@ -67,7 +67,7 @@ h2:hover{
 h3, #desc, #emoji{
     font-family: ENL;
     font-weight: var(--fw);
-    font-size: 1.5em;
+    font-size: 25px;
     color: var(--clr-white);
     line-height: var(--line-height);
 }
@@ -104,7 +104,7 @@ h3 a:hover{
     text-shadow: 0 0 5px var(--clr-bg), 0 0 10px var(--clr-white), 0 0 15px var(--clr-white), 0 0 20px var(--clr-white), 0 0 25px;
 }
 
-.link a, .sign a{
+.link a, .symbol a{
     color: var(--clr-white);
     transition: text-shadow 0.3s ease-in-out;
 }
@@ -114,7 +114,7 @@ h3 a:hover{
     text-shadow: 0 0 5px var(--clr-bg), 0 0 10px var(--clr-white), 0 0 15px var(--clr-white), 0 0 20px var(--clr-white), 0 0 25px;
 }
 
-.sign a:hover{
+.symbol a:hover{
     cursor: pointer;
     text-shadow: 0 0 5px var(--clr-bg), 0 0 10px var(--clr-white), 0 0 15px var(--clr-white), 0 0 20px var(--clr-white), 0 0 25px;
 }

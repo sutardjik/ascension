@@ -81,7 +81,7 @@ function Symbols(){
     };
   };
     
-  useEffect(()=>{
+  useEffect(() => {
     const sakura = document.getElementsByClassName('sakura');
     const mirror = document.getElementsByClassName('mirror');
     const windchime = document.getElementsByClassName('windchime');
