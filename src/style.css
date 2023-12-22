@@ -44,12 +44,20 @@ body{
 h1{
     font-family: ENL;
     font-weight: var(--fw);
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 50px;
     color: var(--clr-white);
 }
 
-h2 {
+h2{
+    font-family: ENL;
+    font-weight: var(--fw);
+    font-size: 25px;
+    line-height: var(--line-height);
+    color: var(--clr-white);
+}
+
+#hidden{
     font-family: ENL;
     font-weight: var(--fw);
     font-size: 15px;
@@ -57,27 +65,11 @@ h2 {
     color: var(--clr-bg);
 }
 
-h2:hover{
-    font-size: 30px;
-    color: var(--clr-white);
-    transition: 1.2s;
-    cursor: zoom-in;
-}
-
-h3, #desc, #emoji{
-    font-family: ENL;
-    font-weight: var(--fw);
+#hidden:hover{
     font-size: 25px;
     color: var(--clr-white);
-    line-height: var(--line-height);
-}
-
-h3 a{
-    color: var(--clr-white) !important;
-}
-
-h3 a:hover{
-    cursor: help;
+    transition: 1.5s;
+    cursor: zoom-in;
 }
 
 .script{
@@ -86,10 +78,6 @@ h3 a:hover{
 
 .emphasize{
     font-family: AIR;
-}
-
-#desc:hover{
-    cursor: default;
 }
 
 #emoji:hover{
@@ -122,7 +110,6 @@ h3 a:hover{
 .diamonds {
     display: flex;
     justify-content: space-between;
-    margin-bottom: -20px;
 }
 
 .content-container{
@@ -134,11 +121,17 @@ h3 a:hover{
     .content-container{
         width: 85%;
     }
+    .diamonds {
+        margin-bottom: -20px;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 767px){
     .content-container{
         width: 70%;
+    }
+    .diamonds {
+        margin-bottom: -10px;
     }
 }
 

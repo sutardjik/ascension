@@ -13,7 +13,7 @@ function BodyGarden(){
       <Symbols/>
         <div className="content-container">
           <h1>Welcome, dear internet traveler.</h1>
-          <h2 id="desc">
+          <h2>
             You must be tired from your journey.<br />Let the unraveling begin.
           </h2>
           <div className="diamonds">
@@ -97,20 +97,19 @@ function BodyGarden(){
             <h2 className="sakura" id="emoji">💠</h2>
             <h2 className="sakura" id="emoji">💠</h2>
           </div>
-          <br />
-          <h2 id="desc">
-            <span className="link"
-              ><a href="https://sarahkinsley.komi.io/"
+          <br/>
+          <h2>
+            <span className="link">
+              <a href="https://sarahkinsley.komi.io/"
                 >Lyrics by Sarah Kinsley</a
-              ></span
-            >
+              ></span>
             <br />
             <span className="link">
               <a href="https://sutardjik.github.io/"
                 >Built by &#x4b;&#x61;&#x72;&#x65;&#x6e;
                 &#x53;&#x75;&#x74;&#x61;&#x72;&#x64;&#x6a;&#x69;</a
-              ></span
-            ><br />
+              ></span>
+            <br />
             <span className="symbol"><Link to="/">💠</Link></span>
           </h2>
           <br />
